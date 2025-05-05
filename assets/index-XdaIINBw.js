@@ -97,4 +97,123 @@ Error generating stack: `+i.message+`
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */const Wd=Ae("Zap",[["polygon",{points:"13 2 3 14 12 14 11 22 21 10 12 10 13 2",key:"45s27k"}]]),Qd=()=>{const e=r=>{const l=document.getElementById(r);l&&l.scrollIntoView({behavior:"smooth"})},[t,n]=F.useState(!1);return F.useEffect(()=>{n(!0)},[]),c.jsxs("section",{id:"hero",className:"relative min-h-screen flex items-center justify-center overflow-hidden bg-neutral-50",children:[c.jsx("div",{className:"absolute inset-0 bg-mesh-pattern opacity-30"}),c.jsx("div",{className:"absolute inset-0 bg-gradient-to-br from-primary-500/10 to-accent-500/10"}),c.jsx("div",{className:"container mx-auto px-4 md:px-6 text-center relative z-20",children:c.jsxs("div",{className:`transition-all duration-1000 transform ${t?"translate-y-0 opacity-100":"translate-y-10 opacity-0"}`,children:[c.jsx("h1",{className:"text-4xl md:text-5xl lg:text-7xl font-bold text-neutral-900 mb-6 leading-tight tracking-tight",children:"Your Compelling One-liner Goes Here"}),c.jsx("p",{className:"text-xl md:text-2xl text-neutral-500 max-w-3xl mx-auto mb-10 leading-relaxed",children:"A brief supporting statement that further explains your value proposition and captures attention."}),c.jsx("button",{onClick:()=>e("contact"),className:"px-8 py-4 bg-primary-500 text-white rounded-lg font-semibold text-lg hover:bg-primary-600 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1",children:"Get Early Access"})]})}),c.jsx("div",{className:"absolute bottom-12 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce",onClick:()=>e("problem"),children:c.jsx($d,{className:"text-neutral-500 w-10 h-10"})})]})},Kd=()=>{const e=F.useRef(null),[t,n]=F.useState(!1);return F.useEffect(()=>{const r=new IntersectionObserver(([l])=>{l.isIntersecting&&(n(!0),r.unobserve(l.target))},{root:null,rootMargin:"0px",threshold:.1});return e.current&&r.observe(e.current),()=>{e.current&&r.unobserve(e.current)}},[]),c.jsx("section",{id:"problem",ref:e,className:"py-24 bg-white",children:c.jsx("div",{className:"container mx-auto px-4 md:px-6",children:c.jsx("div",{className:"max-w-3xl mx-auto",children:c.jsxs("div",{className:`transition-all duration-700 delay-300 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-10"}`,children:[c.jsxs("div",{className:"flex items-center justify-center mb-8",children:[c.jsx(Dd,{className:"w-8 h-8 text-primary-500 mr-3"}),c.jsx("h2",{className:"text-2xl md:text-3xl font-bold text-neutral-900",children:"The Problem"})]}),c.jsx("div",{className:"w-20 h-1 bg-accent-500 mx-auto mb-12"}),c.jsx("p",{className:"text-xl text-neutral-500 mb-12 leading-relaxed",children:"Today's [industry/market] faces significant challenges. [Describe the specific problem your target audience experiences]. This leads to [negative outcomes or pain points], causing [additional consequences]."}),c.jsxs("div",{className:"bg-neutral-50 rounded-lg p-8 border-l-4 border-primary-500 shadow-sm",children:[c.jsx("p",{className:"italic text-neutral-500 text-lg",children:'"Include a powerful quote that emphasizes the problem from a customer or industry perspective."'}),c.jsx("p",{className:"text-neutral-400 mt-4 text-sm",children:"— Senior Engineer, Leading Research Lab"})]})]})})})})},Yd=()=>{const e=F.useRef(null),[t,n]=F.useState(!1);return F.useEffect(()=>{const r=new IntersectionObserver(([l])=>{l.isIntersecting&&(n(!0),r.unobserve(l.target))},{root:null,rootMargin:"0px",threshold:.1});return e.current&&r.observe(e.current),()=>{e.current&&r.unobserve(e.current)}},[]),c.jsx("section",{id:"solution",ref:e,className:"py-24 bg-gradient-to-br from-primary-800 to-primary-900 text-white",children:c.jsx("div",{className:"container mx-auto px-4 md:px-6",children:c.jsxs("div",{className:`max-w-5xl mx-auto transition-all duration-700 delay-300 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-10"}`,children:[c.jsxs("div",{className:"text-center mb-16",children:[c.jsx("h2",{className:"text-2xl md:text-3xl font-bold mb-3",children:"Our Solution"}),c.jsx("div",{className:"w-20 h-1 bg-white mx-auto mb-8"}),c.jsx("p",{className:"text-xl text-primary-100 max-w-3xl mx-auto leading-relaxed",children:"Introducing [Your Solution Name] - a revolutionary approach to [solving the problem]."})]}),c.jsxs("div",{className:"grid md:grid-cols-2 gap-8 items-center",children:[c.jsx("div",{className:"rounded-lg overflow-hidden shadow-2xl transform md:translate-y-4",children:c.jsx("img",{src:"https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",alt:"Solution visualization",className:"w-full h-auto"})}),c.jsxs("div",{children:[c.jsxs("div",{className:"flex items-center mb-6",children:[c.jsx("div",{className:"bg-white/10 p-3 rounded-full mr-4",children:c.jsx(Wd,{className:"w-6 h-6 text-primary-200"})}),c.jsx("h3",{className:"text-xl font-semibold",children:"How It Works"})]}),c.jsx("p",{className:"text-primary-100 mb-6 leading-relaxed",children:"Our solution [explain how your solution works in clear, concise language]. Unlike existing alternatives, we focus on [key differentiator]."}),c.jsxs("ul",{className:"space-y-3",children:[c.jsxs("li",{className:"flex items-start",children:[c.jsx("span",{className:"text-primary-200 mr-2",children:"✓"}),c.jsx("span",{children:"Key solution point 1"})]}),c.jsxs("li",{className:"flex items-start",children:[c.jsx("span",{className:"text-primary-200 mr-2",children:"✓"}),c.jsx("span",{children:"Key solution point 2"})]}),c.jsxs("li",{className:"flex items-start",children:[c.jsx("span",{className:"text-primary-200 mr-2",children:"✓"}),c.jsx("span",{children:"Key solution point 3"})]})]})]})]})]})})})},Yl=({icon:e,title:t,description:n,delay:r})=>c.jsxs("div",{className:`bg-white rounded-lg shadow-lg p-8 transform transition-all duration-700 ${r} hover:shadow-xl hover:-translate-y-1`,children:[c.jsx("div",{className:"text-primary-500 mb-4",children:e}),c.jsx("h3",{className:"text-xl font-semibold text-neutral-900 mb-3",children:t}),c.jsx("p",{className:"text-neutral-700",children:n})]}),Xd=()=>{const e=F.useRef(null),[t,n]=F.useState(!1);return F.useEffect(()=>{const r=new IntersectionObserver(([l])=>{l.isIntersecting&&(n(!0),r.unobserve(l.target))},{root:null,rootMargin:"0px",threshold:.1});return e.current&&r.observe(e.current),()=>{e.current&&r.unobserve(e.current)}},[]),c.jsx("section",{id:"benefits",ref:e,className:"py-24 bg-neutral-100",children:c.jsxs("div",{className:"container mx-auto px-4 md:px-6",children:[c.jsxs("div",{className:"text-center mb-16",children:[c.jsx("h2",{className:"text-2xl md:text-3xl font-bold text-neutral-900 mb-3",children:"Key Benefits"}),c.jsx("div",{className:"w-20 h-1 bg-primary-500 mx-auto mb-8"}),c.jsx("p",{className:"text-xl text-neutral-700 max-w-3xl mx-auto",children:"Our solution provides exceptional advantages that make a real difference."})]}),c.jsxs("div",{className:"grid md:grid-cols-3 gap-8 max-w-5xl mx-auto",children:[c.jsx("div",{className:`transition-all duration-700 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-10"}`,children:c.jsx(Yl,{icon:c.jsx(Fd,{className:"w-10 h-10"}),title:"Benefit One",description:"Describe how this benefit helps your customers achieve their goals or overcome challenges.",delay:"delay-0"})}),c.jsx("div",{className:`transition-all duration-700 ${t?"opacity-100 translate-y-0 delay-150":"opacity-0 translate-y-10"}`,children:c.jsx(Yl,{icon:c.jsx(Hd,{className:"w-10 h-10"}),title:"Benefit Two",description:"Explain another key advantage that sets your solution apart from alternatives.",delay:"delay-150"})}),c.jsx("div",{className:`transition-all duration-700 ${t?"opacity-100 translate-y-0 delay-300":"opacity-0 translate-y-10"}`,children:c.jsx(Yl,{icon:c.jsx(Ud,{className:"w-10 h-10"}),title:"Benefit Three",description:"Highlight a third benefit that addresses a specific pain point or creates value.",delay:"delay-300"})})]})]})})},Gd=[{title:"Feature One",description:"Describe this powerful feature and how it works to solve problems.",image:"https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{title:"Feature Two",description:"Explain this feature's functionality and benefits to users.",image:"https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{title:"Feature Three",description:"Highlight how this feature provides unique value.",image:"https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"}],Zd=()=>{const e=F.useRef(null),[t,n]=F.useState(!1);return F.useEffect(()=>{const r=new IntersectionObserver(([l])=>{l.isIntersecting&&(n(!0),r.unobserve(l.target))},{root:null,rootMargin:"0px",threshold:.1});return e.current&&r.observe(e.current),()=>{e.current&&r.unobserve(e.current)}},[]),c.jsx("section",{id:"features",ref:e,className:"py-24 bg-white",children:c.jsxs("div",{className:"container mx-auto px-4 md:px-6",children:[c.jsxs("div",{className:"text-center mb-16",children:[c.jsx("h2",{className:"text-2xl md:text-3xl font-bold text-neutral-900 mb-3",children:"Features"}),c.jsx("div",{className:"w-20 h-1 bg-primary-500 mx-auto mb-8"}),c.jsx("p",{className:"text-xl text-neutral-700 max-w-3xl mx-auto",children:"Discover the powerful capabilities that make our solution stand out."})]}),c.jsx("div",{className:"max-w-6xl mx-auto space-y-24",children:Gd.map((r,l)=>c.jsxs("div",{className:`grid md:grid-cols-2 gap-8 items-center transition-all duration-700 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-10"}`,style:{transitionDelay:`${l*150}ms`},children:[c.jsx("div",{className:l%2===0?"order-1 md:order-1":"order-1 md:order-2",children:c.jsx("div",{className:"rounded-lg overflow-hidden shadow-lg",children:c.jsx("img",{src:r.image,alt:r.title,className:"w-full h-auto"})})}),c.jsxs("div",{className:l%2===0?"order-2 md:order-2":"order-2 md:order-1",children:[c.jsx("h3",{className:"text-2xl font-bold text-neutral-900 mb-4",children:r.title}),c.jsx("p",{className:"text-lg text-neutral-700 mb-6",children:r.description}),c.jsxs("ul",{className:"space-y-3",children:[c.jsxs("li",{className:"flex items-start",children:[c.jsx("span",{className:"bg-primary-100 p-1 rounded-full text-primary-600 mr-3",children:c.jsx(Kl,{className:"w-4 h-4"})}),c.jsx("span",{children:"Key capability 1"})]}),c.jsxs("li",{className:"flex items-start",children:[c.jsx("span",{className:"bg-primary-100 p-1 rounded-full text-primary-600 mr-3",children:c.jsx(Kl,{className:"w-4 h-4"})}),c.jsx("span",{children:"Key capability 2"})]}),c.jsxs("li",{className:"flex items-start",children:[c.jsx("span",{className:"bg-primary-100 p-1 rounded-full text-primary-600 mr-3",children:c.jsx(Kl,{className:"w-4 h-4"})}),c.jsx("span",{children:"Key capability 3"})]})]})]})]},l))})]})})},Xl=({icon:e,title:t,content:n})=>c.jsxs("div",{className:"flex items-start mb-8",children:[c.jsx("div",{className:"bg-primary-100 p-3 rounded-full text-primary-600 mr-4",children:e}),c.jsxs("div",{children:[c.jsx("h3",{className:"text-lg font-semibold text-neutral-900 mb-1",children:t}),c.jsx("p",{className:"text-neutral-700",children:n})]})]}),Jd=()=>{const e=F.useRef(null),[t,n]=F.useState(!1);return F.useEffect(()=>{const r=new IntersectionObserver(([l])=>{l.isIntersecting&&(n(!0),r.unobserve(l.target))},{root:null,rootMargin:"0px",threshold:.1});return e.current&&r.observe(e.current),()=>{e.current&&r.unobserve(e.current)}},[]),c.jsx("section",{id:"contact",ref:e,className:"py-24 bg-neutral-50",children:c.jsxs("div",{className:"container mx-auto px-4 md:px-6",children:[c.jsxs("div",{className:"text-center mb-16",children:[c.jsx("h2",{className:"text-2xl md:text-3xl font-bold text-neutral-900 mb-3",children:"Get In Touch"}),c.jsx("div",{className:"w-20 h-1 bg-primary-500 mx-auto mb-8"}),c.jsx("p",{className:"text-xl text-neutral-700 max-w-3xl mx-auto",children:"Interested in learning more? Contact us to discuss how we can help you."})]}),c.jsxs("div",{className:`max-w-5xl mx-auto grid md:grid-cols-2 gap-12 transition-all duration-700 ${t?"opacity-100 translate-y-0":"opacity-0 translate-y-10"}`,children:[c.jsxs("div",{className:"bg-white rounded-lg shadow-lg p-8",children:[c.jsx("h3",{className:"text-xl font-bold text-neutral-900 mb-6",children:"Contact Information"}),c.jsx(Xl,{icon:c.jsx(Ad,{className:"w-5 h-5"}),title:"Email",content:"hello@yourbrand.com"}),c.jsx(Xl,{icon:c.jsx(Bd,{className:"w-5 h-5"}),title:"Phone",content:"+1 (555) 123-4567"}),c.jsx(Xl,{icon:c.jsx(Vd,{className:"w-5 h-5"}),title:"Location",content:"123 Innovation Street, Tech City, 98765"})]}),c.jsxs("div",{className:"bg-white rounded-lg shadow-lg p-8",children:[c.jsx("h3",{className:"text-xl font-bold text-neutral-900 mb-6",children:"Send us a message"}),c.jsx("form",{children:c.jsxs("div",{className:"grid gap-6",children:[c.jsxs("div",{children:[c.jsx("label",{htmlFor:"name",className:"block text-sm font-medium text-neutral-700 mb-1",children:"Name"}),c.jsx("input",{type:"text",id:"name",className:"w-full px-4 py-2 border border-neutral-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition",placeholder:"Your name"})]}),c.jsxs("div",{children:[c.jsx("label",{htmlFor:"email",className:"block text-sm font-medium text-neutral-700 mb-1",children:"Email"}),c.jsx("input",{type:"email",id:"email",className:"w-full px-4 py-2 border border-neutral-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition",placeholder:"your.email@example.com"})]}),c.jsxs("div",{children:[c.jsx("label",{htmlFor:"message",className:"block text-sm font-medium text-neutral-700 mb-1",children:"Message"}),c.jsx("textarea",{id:"message",rows:4,className:"w-full px-4 py-2 border border-neutral-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition",placeholder:"Your message"})]}),c.jsx("button",{type:"button",className:"inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors",children:"Send Message"})]})})]})]})]})})},qd=()=>c.jsx("footer",{className:"bg-neutral-900 text-white py-12",children:c.jsxs("div",{className:"container mx-auto px-4 md:px-6",children:[c.jsxs("div",{className:"grid md:grid-cols-4 gap-8",children:[c.jsxs("div",{children:[c.jsx("h3",{className:"text-xl font-bold mb-4",children:"YourBrand"}),c.jsx("p",{className:"text-neutral-400 mb-4",children:"Creating innovative solutions for modern challenges."})]}),c.jsxs("div",{children:[c.jsx("h4",{className:"font-semibold mb-4",children:"Links"}),c.jsxs("ul",{className:"space-y-2",children:[c.jsx("li",{children:c.jsx("a",{href:"#hero",className:"text-neutral-400 hover:text-white transition-colors",children:"Home"})}),c.jsx("li",{children:c.jsx("a",{href:"#problem",className:"text-neutral-400 hover:text-white transition-colors",children:"Problem"})}),c.jsx("li",{children:c.jsx("a",{href:"#solution",className:"text-neutral-400 hover:text-white transition-colors",children:"Solution"})}),c.jsx("li",{children:c.jsx("a",{href:"#benefits",className:"text-neutral-400 hover:text-white transition-colors",children:"Benefits"})})]})]}),c.jsxs("div",{children:[c.jsx("h4",{className:"font-semibold mb-4",children:"More"}),c.jsxs("ul",{className:"space-y-2",children:[c.jsx("li",{children:c.jsx("a",{href:"#features",className:"text-neutral-400 hover:text-white transition-colors",children:"Features"})}),c.jsx("li",{children:c.jsx("a",{href:"#contact",className:"text-neutral-400 hover:text-white transition-colors",children:"Contact"})}),c.jsx("li",{children:c.jsx("a",{href:"#",className:"text-neutral-400 hover:text-white transition-colors",children:"Privacy Policy"})}),c.jsx("li",{children:c.jsx("a",{href:"#",className:"text-neutral-400 hover:text-white transition-colors",children:"Terms of Service"})})]})]}),c.jsxs("div",{children:[c.jsx("h4",{className:"font-semibold mb-4",children:"Connect"}),c.jsxs("div",{className:"flex space-x-4",children:[c.jsxs("a",{href:"#",className:"text-neutral-400 hover:text-white transition-colors",children:[c.jsx("span",{className:"sr-only",children:"Twitter"}),c.jsx("svg",{className:"h-6 w-6",fill:"currentColor",viewBox:"0 0 24 24","aria-hidden":"true",children:c.jsx("path",{d:"M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"})})]}),c.jsxs("a",{href:"#",className:"text-neutral-400 hover:text-white transition-colors",children:[c.jsx("span",{className:"sr-only",children:"LinkedIn"}),c.jsx("svg",{className:"h-6 w-6",fill:"currentColor",viewBox:"0 0 24 24","aria-hidden":"true",children:c.jsx("path",{d:"M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"})})]})]})]})]}),c.jsx("div",{className:"border-t border-neutral-800 mt-12 pt-8 text-center text-neutral-400 text-sm",children:c.jsxs("p",{children:["© ",new Date().getFullYear()," YourBrand. All rights reserved."]})})]})});function bd(){return c.jsxs("div",{className:"min-h-screen font-sans text-neutral-900 overflow-hidden",children:[c.jsx(Id,{}),c.jsxs("main",{children:[c.jsx(Qd,{}),c.jsx(Kd,{}),c.jsx(Yd,{}),c.jsx(Xd,{}),c.jsx(Zd,{}),c.jsx(Jd,{})]}),c.jsx(qd,{})]})}lc(document.getElementById("root")).render(c.jsx(F.StrictMode,{children:c.jsx(bd,{})}));
+ */const Wd = Ae("Zap", [
+  ["polygon", { points: "13 2 3 14 12 14 11 22 21 10 12 10 13 2", key: "45s27k" }]
+]);
+
+const Qd = () => {
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const [mounted, setMounted] = F.useState(false);
+
+  F.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  return c.jsxs("section", {
+    id: "hero",
+    className: "relative min-h-screen flex items-center justify-center overflow-hidden bg-neutral-50",
+    children: [
+      c.jsx("div", { className: "absolute inset-0 bg-mesh-pattern opacity-30" }),
+      c.jsx("div", { className: "absolute inset-0 bg-gradient-to-br from-primary-500/10 to-accent-500/10" }),
+      c.jsx("div", {
+        className: "container mx-auto px-4 md:px-6 text-center relative z-20",
+        children: c.jsxs("div", {
+          className: `transition-all duration-1000 transform ${mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`,
+          children: [
+            c.jsx("h1", {
+              className: "text-4xl md:text-5xl lg:text-7xl font-bold text-neutral-900 mb-6 leading-tight tracking-tight",
+              children: "Your Compelling One-liner Goes Here"
+            }),
+            c.jsx("p", {
+              className: "text-xl md:text-2xl text-neutral-500 max-w-3xl mx-auto mb-10 leading-relaxed",
+              children: "A smarter way to capture, organize, and compare lab experiments and hardware data."
+            }),
+            c.jsx("button", {
+              onClick: () => scrollToSection("contact"),
+              className: "px-8 py-4 bg-primary-500 text-white rounded-lg font-semibold text-lg hover:bg-primary-600 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1",
+              children: "Get Early Access"
+            })
+          ]
+        })
+      }),
+      c.jsx("div", {
+        className: "absolute bottom-12 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce",
+        onClick: () => scrollToSection("problem"),
+        children: c.jsx($d, { className: "text-neutral-500 w-10 h-10" })
+      })
+    ]
+  });
+};
+
+const Kd = () => {
+  const ref = F.useRef(null);
+  const [visible, setVisible] = F.useState(false);
+
+  F.useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setVisible(true);
+        observer.unobserve(entry.target);
+      }
+    }, {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.1
+    });
+
+    if (ref.current) observer.observe(ref.current);
+    return () => {
+      if (ref.current) observer.unobserve(ref.current);
+    };
+  }, []);
+
+  return c.jsx("section", {
+    id: "problem",
+    ref,
+    className: "py-24 bg-white",
+    children: c.jsx("div", {
+      className: "container mx-auto px-4 md:px-6",
+      children: c.jsx("div", {
+        className: "max-w-3xl mx-auto",
+        children: c.jsxs("div", {
+          className: `transition-all duration-700 delay-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+          children: [
+            c.jsxs("div", {
+              className: "flex items-center justify-center mb-8",
+              children: [
+                c.jsx(Dd, { className: "w-8 h-8 text-primary-500 mr-3" }),
+                c.jsx("h2", {
+                  className: "text-2xl md:text-3xl font-bold text-neutral-900",
+                  children: "The Problem"
+                })
+              ]
+            }),
+            c.jsx("div", { className: "w-20 h-1 bg-accent-500 mx-auto mb-12" }),
+            c.jsx("p", {
+              className: "text-xl text-neutral-500 mb-12 leading-relaxed",
+              children: "Engineers in labs struggle with disorganized experiment notes, missing version history, and difficulty comparing results across iterations. This leads to wasted time, reduced reproducibility, and costly errors in prototyping and compliance."
+            }),
+            c.jsxs("div", {
+              className: "bg-neutral-50 rounded-lg p-8 border-l-4 border-primary-500 shadow-sm",
+              children: [
+                c.jsx("p", {
+                  className: "italic text-neutral-500 text-lg",
+                  children: "\"When you don't document properly, you end up repeating the same experiment — sometimes weeks later.\""
+                }),
+                c.jsx("p", {
+                  className: "text-neutral-400 mt-4 text-sm",
+                  children: "— Senior Engineer, Leading Research Lab"
+                })
+              ]
+            })
+          ]
+        })
+      })
+    })
+  });
+};
+
