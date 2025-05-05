@@ -133,7 +133,7 @@ const Qd = () => {
               children: "A smarter way to capture, organize, and compare lab experiments and hardware data."
             }),
             c.jsx("button", {
-              onClick: () => scrollToSection("contact"),
+              onClick: () => scrollToSection("problem"),
               className: "px-8 py-4 bg-primary-500 text-white rounded-lg font-semibold text-lg hover:bg-primary-600 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1",
               children: "Get Early Access"
             })
@@ -195,7 +195,19 @@ const Kd = () => {
             c.jsx("div", { className: "w-20 h-1 bg-accent-500 mx-auto mb-12" }),
             c.jsx("p", {
               className: "text-xl text-neutral-500 mb-12 leading-relaxed",
-              children: "Engineers in labs struggle with disorganized experiment notes, missing version history, and difficulty comparing results across iterations. This leads to wasted time, reduced reproducibility, and costly errors in prototyping and compliance."
+              children: "Whether you're in electronics, optics, or materials science, lab experiments are hard to trace: Notes are scribbled in notebooks, disconnected from the data."
+            }),
+            c.jsx("p", {
+              className: "text-xl text-neutral-500 mb-12 leading-relaxed",
+              children: "Multiple team members run tests, but knowledge stays siloed."
+            }),
+            c.jsx("p", {
+              className: "text-xl text-neutral-500 mb-12 leading-relaxed",
+              children: "Reviewing decisions during design reviews becomes painful."
+            }),
+            c.jsx("p", {
+              className: "text-xl text-neutral-500 mb-12 leading-relaxed",
+              children: "Today’s R&D engineers are forced to reverse-engineer their own work, costing time, credibility, and lost insights."
             }),
             c.jsxs("div", {
               className: "bg-neutral-50 rounded-lg p-8 border-l-4 border-primary-500 shadow-sm",
