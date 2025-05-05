@@ -180,55 +180,86 @@ Error generating stack: `+i.message+`
         );
       }, []),
       c.jsx("section", {
-        id: "problem",
-        ref: e,
-        className: "py-24 bg-white",
-        children: c.jsx("div", {
-          className: "container mx-auto px-4 md:px-6",
+          id: "problem",
+          ref: e,
+          className: "py-24 bg-white",
           children: c.jsx("div", {
-            className: "max-w-3xl mx-auto",
-            children: c.jsxs("div", {
-              className: `transition-all duration-700 delay-300 ${t ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
-              children: [
-                c.jsxs("div", {
-                  className: "flex items-center justify-center mb-8",
-                  children: [
-                    c.jsx(Dd, { className: "w-8 h-8 text-primary-500 mr-3" }),
-                    c.jsx("h2", {
-                      className:
-                        "text-2xl md:text-3xl font-bold text-neutral-900",
-                      children: "The Problem",
-                    }),
-                  ],
-                }),
-                c.jsx("div", {
-                  className: "w-20 h-1 bg-accent-500 mx-auto mb-12",
-                }),
-                c.jsx("p", {
-                  className: "text-xl text-neutral-500 mb-12 leading-relaxed",
-                  children:
-                    "Today's [industry/market] faces significant challenges. [Describe the specific problem your target audience experiences]. This leads to [negative outcomes or pain points], causing [additional consequences].",
-                }),
-                c.jsxs("div", {
-                  className:
-                    "bg-neutral-50 rounded-lg p-8 border-l-4 border-primary-500 shadow-sm",
-                  children: [
-                    c.jsx("p", {
-                      className: "italic text-neutral-500 text-lg",
-                      children:
-                        '"Include a powerful quote that emphasizes the problem from a customer or industry perspective."',
-                    }),
-                    c.jsx("p", {
-                      className: "text-neutral-400 mt-4 text-sm",
-                      children: "â€” Senior Engineer, Leading Research Lab",
-                    }),
-                  ],
-                }),
-              ],
+            className: "container mx-auto px-4 md:px-6",
+            children: c.jsx("div", {
+              className: "max-w-3xl mx-auto",
+              children: c.jsxs("div", {
+                className: `transition-all duration-700 delay-300 ${t ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`,
+                children: [
+                  c.jsxs("div", {
+                    className: "flex items-center justify-center mb-8",
+                    children: [
+                      c.jsx(Dd, { className: "w-8 h-8 text-primary-500 mr-3" }),
+                      c.jsx("h2", {
+                        className: "text-2xl md:text-3xl font-bold text-neutral-900",
+                        children: "The Problem",
+                      }),
+                    ],
+                  }),
+                  c.jsx("div", {
+                    className: "w-20 h-1 bg-accent-500 mx-auto mb-12",
+                  }),
+                  c.jsx("div", {
+                    className: "text-xl text-neutral-500 mb-12 leading-relaxed",
+                    children: [
+                      c.jsx("p", {
+                        className: "flex items-center",
+                        children: [
+                          c.jsx("span", { className: "mr-2 text-xl", children: "•" }),
+                          "Whether you're in electronics, optics, or materials science, lab experiments are hard to trace.",
+                        ],
+                      }),
+                      c.jsx("p", {
+                        className: "flex items-center",
+                        children: [
+                          c.jsx("span", { className: "mr-2 text-xl", children: "•" }),
+                          "Notes are scribbled in notebooks, disconnected from the data.",
+                        ],
+                      }),
+                      c.jsx("p", {
+                        className: "flex items-center",
+                        children: [
+                          c.jsx("span", { className: "mr-2 text-xl", children: "•" }),
+                          "Multiple team members run tests, but knowledge stays siloed.",
+                        ],
+                      }),
+                      c.jsx("p", {
+                        className: "flex items-center",
+                        children: [
+                          c.jsx("span", { className: "mr-2 text-xl", children: "•" }),
+                          "Reviewing decisions during design reviews becomes painful.",
+                        ],
+                      }),
+                      c.jsx("p", {
+                        className: "text-xl text-neutral-500 mb-12 leading-relaxed",
+                        children:
+                          "Today’s R&D engineers are forced to reverse-engineer their own work, costing time, credibility, and lost insights.",
+                      }),
+                    ],
+                  }),
+                  c.jsxs("div", {
+                    className:
+                      "bg-neutral-50 rounded-lg p-8 border-l-4 border-primary-500 shadow-sm",
+                    children: [
+                      c.jsx("p", {
+                        className: "italic text-neutral-500 text-lg",
+                        children: `"When you don't document properly, you end up repeating the same experiment — sometimes weeks later."`,
+                      }),
+                      c.jsx("p", {
+                        className: "text-neutral-400 mt-4 text-sm",
+                        children: "— Senior Engineer, Leading Research Lab",
+                      }),
+                    ],
+                  }),
+                ],
+              }),
             }),
           }),
-        }),
-      })
+        });
     );
   },
   Yd = () => {
